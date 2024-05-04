@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap Demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- start navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6C7ABB;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/img/LogoITB.png" alt="logo" width="163" height="45">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Tentang</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Sejarah</a></li>
+              <li><a class="dropdown-item" href="#">Visi Misi</a></li>
+              <li><a class="dropdown-item" href="#">Struktur</a></li>
+              <li><a class="dropdown-item" href="#">Dosen Tetap</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Akademik</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Penghargaan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Media</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- Start Content -->
+  <section class="container-fluid textColorPrimary custom-section"> <!-- Added "custom-section" class here -->
+    <div class="row align-center"> <!-- Added "align-center" class here -->
+      <div class="col-md-6">
+        <div class="row mb-3">
+          <div class="col text-end">
+            <img src="/img/stikom.png" alt="Logo ITB" width="120">
+          </div>
+          <div class="col text-start align-center"> <!-- Added "align-center" class here -->
+            <img src="/img/kampusmerdeka.png" alt="Kampus Merdeka" width="163">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col">
+            <h3>Program Pascasarjana</h3>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col">
+            <h1>MAGISTER KOMPUTER (S2) PROGRAM STUDI SISTEM INFORMASI</h1>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col">
+            <p>Institut Teknologi & Bisnis (ITB) STIKOM Bali<br>Nomor Akreditasi: 3316/SK/BAN-PT/Ak.P/M/VIII/2023</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="submit" class="btn btn-danger">Daftar Sekarang</button>
+            <button type="submit" class="btn btn-danger">Login</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="./img/image.png" alt="Image" class="img-fluid">
+      </div>
+    </div>
+    <!-- Corner images -->
+    <img src="/img/ornamen.png" alt="Corner Image" class="corner-image top-left">
+    <img src="/img/ornamen.png" alt="Corner Image" class="corner-image bottom-right">
+  </section>
+  <!-- End Content -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
